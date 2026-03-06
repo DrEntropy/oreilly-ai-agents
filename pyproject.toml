@@ -1,0 +1,24 @@
+[project]
+name = "oreilly-ai-agents"
+version = "0.1.0"
+description = "O'Reilly AI Agents course"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit",
+    "crewai-tools",
+    "crewai",
+    "google-search-results",
+    "jupyter",
+    "swarm @ git+https://github.com/openai/swarm.git",
+    "langchain-community",
+    "langchain-openai",
+    "duckduckgo-search",
+    "onnxruntime",
+    "langgraph",
+    "datasets",
+    "matplotlib",
+    "openai-agents",
+    "smolagents",
+    "ddgs",
+    "langchain>=1.2.10",
+]

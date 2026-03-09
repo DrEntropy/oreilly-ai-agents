@@ -21,4 +21,6 @@ dependencies = [
     "smolagents",
     "ddgs",
     "langchain>=1.2.10",
+    "litellm>=1.82.0",
+    "gradio-client>=2.3.0",
 ]
